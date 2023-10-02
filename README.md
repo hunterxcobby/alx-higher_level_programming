@@ -27,6 +27,7 @@ This repo contains projects given to me as a student getting introduced to the h
 - [Repository Description](#repository-description)
 - [Features](#features)
 - [Installation](#installation)
+- [Projects](#projects)
 - [Usage](#usage)
 - [Contributions](#contributions)
 - [Contact](#contact)
@@ -93,6 +94,10 @@ Save the file and open a terminal or command prompt. Navigate to the directory w
 
 6. **Additional Resources**:
 For more detailed information and tutorials, consider referring to the official [Python documentation](https://docs.python.org/3/). It's an excellent resource for both beginners and experienced developers.
+
+## Projects
+
+- [0x00](./0x00-python-hello_world) : Hello, World.
 
 ## Usage
 
