@@ -4,7 +4,7 @@
 
 - [Resources](#resources)
 - [Learning Objectives](#learning-objectives)
-- [Description of what each file shows (Tasks)](#description-of-what-each-file-shows-tasks)
+- [Tasks](#tasks)
 - [Environment](#environment)
 - [Author](#author)
 
@@ -34,7 +34,7 @@
 * What are indexing and slicing in Python
 * What is the official Python coding style and how to check your code with <code>pycodestyle</code>
 ---
-### Description of what each file shows (Tasks):
+### Tasks
 
 * main --- folder holds test files that showcase examples of how to use functions.
 * lists.h --- holds the `.c` files' function prototypes.
