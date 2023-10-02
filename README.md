@@ -96,10 +96,15 @@ For more detailed information and tutorials, consider referring to the official 
 
 ## Usage
 
-+ The notes in the lessons are the various notes I made when working on the exercises
-+ The notes have the same names as the exercises so not to confuse you.
 + This repository and all of its contents are for learning purposes.
 + Some of these files contain basic concepts on how to achieve certain results.
+
+### Resources
+
+- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+- [Learn to Program](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
+- [The Python Handbook](https://www.freecodecamp.org/news/the-python-handbook/)
+- [pycodestyle](https://pypi.org/project/pycodestyle/)
 
 ## Contributions
 
