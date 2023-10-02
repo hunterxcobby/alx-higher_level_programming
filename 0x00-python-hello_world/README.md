@@ -50,14 +50,19 @@
 
 	guillaume@ubuntu:~/py/0x00$ export PYFILE=main.py
 	```
+ 
 1. [Run inline](1-run_inline) : Write a Shell script that runs Python code.
 	- The Python code will be saved in the environment variable `$PYCODE`
 
 	```sh
 	guillaume@ubuntu:~/py/0x00$ export PYCODE='print("Holberton School: {}".format(88+10))'
 	```
+ 
+
 2. [Hello, print](2-print.py) : Write a Python script that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line.
 	- Use the function `print`
+
+
 3. [Print integer](3-print_number.py) : Complete the source code in order to print the integer stored in the variable `number`, followed by `Battery street`, followed by a new line.
 	- You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/3-print_number.py)
 	- The output of the script should be:
@@ -67,6 +72,8 @@
 	- Your code must be 3 lines long
 	- You have to use the f-strings [tips](https://realpython.com/python-f-strings/)
 	> C is strongly typed… not in Python! The variable `number`  can be assigned to a string, a float, a bool etc… Forcing the type during a string format (`"...".format(...)`) is a way to control the type of a variable
+
+
 4. [Print float](4-print_float.py) : Complete the source code in order to print the float stored in the variable `number` with a precision of 2 digits.
 	- You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/4-print_float.py)
 	- The output of the program should be:
@@ -74,6 +81,8 @@
 		- Followed by a new line.
 	- You are not allowed to cast the variable `number` into a string.
 	- You have to use the f-strings [tips](https://realpython.com/python-f-strings/)
+
+
 5. [Print string](5-print_string.py) : Complete the source code in order to print 3 times a string stored in the variable `str`, followed by its first 9 characters.
 	- You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/5-print_string.py)
 	- The output of the program should be:
@@ -83,11 +92,15 @@
 		- followed by a new line
 	- You are not allowed to use any loops or conditional statement
 	- Your program should be maximum 5 lines long
+
+
 6. [Play with strings](6-concat.py) : Complete this source code to print `Welcome to Holberton School!`
 	- You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/6-concat.py)
 	- You are not allowed to use any loops or conditional statements.
 	- You have to use the variables	`str1` and `str2` in your new line of code.
 	- Your program should be exactly 5 lines long
+
+
 7. [Copy - Cut - Paste](7-edges.py) : Complete this source code.
 	- You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/7-edges.py)
 	- You are not allowed to use any loops or conditional statements
@@ -95,6 +108,8 @@
 	- `word_first_3` should contain the first 3 letters of the variable `word`
 	- `word_last_2` should contain the last 2 letters of the variable `word`
 	- `middle_word` should contain the value of the variable `word` without the first and last letters.
+
+
 8. [Create a new sentence](8-concat_edges.py) : Complete this source code to print `object-oriented programming with Python`, followed by a new line.
 	- You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py)
 	- You are not allowed to use any loops or conditional statements
@@ -104,10 +119,12 @@
 	> Asides the solution provided in my file, another method would have been to split the string into words with an array
 	> and then call it back by the index...
 
- 
+
 9. [Easter Egg](9-easter_egg.py) : Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 	- Your script should be maximum 98 characters long (please check with `wc -m 9-easter_egg.py`)
 	- 😉Google is your friend
+
+
 10. [Linked list cycle](10-check_cycle.c) Technical interview preparation:
 	- You are not allowed to google anything
 	- Whiteboard first
@@ -120,6 +137,8 @@
 	- Compile the code this way: `gcc -Wall -Werror -Wextra -pedantic 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle`
 	- The aim of the task in a nutshell: "Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it."
 ---
+
+
 ### Environment
 * Language: Python 3.4.3 (and C for #10)
 	* OS: Ubuntu 14.04 LTS
