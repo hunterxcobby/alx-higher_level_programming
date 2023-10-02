@@ -20,7 +20,7 @@
 
 <h2 align="center">HIGHER LEVEL PROGRAMMING.</h2>
 
-This repository contains some basic projects, lessons and notes to guide one get introduced to the Python programming language..
+This repo contains projects given to me as a student getting introduced to the higher level programming.
 
 ## Table of Contents 
 
@@ -34,20 +34,40 @@ This repository contains some basic projects, lessons and notes to guide one get
 
 ## Repository Description
 
-+ This repository was created to serve as a guide to anyone new to Python. 
-+ It contains directories that help assists anyone ready to learn the Python Language.
-+ Inside the directories are various files that serves as notes, exercises and projects to assist the new learner.
++ This repository was created just as instructed by the author of the program. 
++ It contains directories that help assists anyone new to the python programming language.
++ Inside the directories are various tasks that instruct the learner on respectfully adjusting to the python language.
 + Make sure to carefully read all the README.md files as they each contain important key points to consider for a better understanding of the programs..
-+ **NOTE**: *This repo and all of its contents exist for learning purposes only.*
++ **NOTE**: *This repo and all of its contents exist for learning purposes.*
 
 ## Features
 
-These are the various directories
+### Zen (Python) 
 
-- **[Lessons](https://github.com/hunterxcobby/alx-higher_level_programming/tree/main/lessons)**
-   - **[Exercises](https://github.com/hunterxcobby/alx-higher_level_programming/tree/main/lessons/exercises)**
-   -  **[Notes](https://github.com/hunterxcobby/alx-higher_level_programming/tree/main/lessons/notes)**
-- **[Projects](https://github.com/hunterxcobby/alx-higher_level_programming/tree/main/my_projects)**
+<details>
+<summary>The Zen of Python, by Tim Peters</summary>
+<br>
+Beautiful is better than ugly.<br>
+Explicit is better than implicit.<br>
+Simple is better than complex.<br>
+Complex is better than complicated.<br>
+Flat is better than nested.<br>
+Sparse is better than dense.<br>
+Readability counts.<br>
+Special cases aren't special enough to break the rules.<br>
+Although practicality beats purity.<br>
+Errors should never pass silently.<br>
+Unless explicitly silenced.<br>
+In the face of ambiguity, refuse the temptation to guess.<br>
+There should be one-- and preferably only one --obvious way to do it.<br>
+Although that way may not be obvious at first unless you're Dutch.<br>
+Now is better than never.<br>
+Although never is often better than *right* now.<br>
+If the implementation is hard to explain, it's a bad idea.<br>
+If the implementation is easy to explain, it may be a good idea.<br>
+Namespaces are one honking great idea -- let's do more of those!
+
+</details>
 
 ## Installation
 
