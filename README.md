@@ -14,7 +14,11 @@
   <a href="https://github.com/hunterxcobby/alx-higher_level_programming"><img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/hunterxcobby/alx-higher_level_programming?label=Repo%20size&style=flat"></a>
 </p>
 
-<h2 align="center">ALX-HIGHER LEVEL PROGRAMMING.</h2>
+<p align="center">
+<img src="https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png" alt="ALX Logo" width="350">
+</p>
+
+<h2 align="center">HIGHER LEVEL PROGRAMMING.</h2>
 
 This repository contains some basic projects, lessons and notes to guide one get introduced to the Python programming language..
 
