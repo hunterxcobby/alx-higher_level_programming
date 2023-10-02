@@ -1,6 +1,12 @@
 # Project: 0x00. Python - Hello, World
 
+## Table of Contents
 
+- [Resources](#resources)
+- [Learning Objectives](#learning-objectives)
+- [Description of what each file shows (Tasks)](#description-of-what-each-file-shows-tasks)
+- [Environment](#environment)
+- [Author](#author)
 
 ## Resources
 
@@ -97,15 +103,8 @@
 	- You are not allowed to use string literals
 	> Asides the solution provided in my file, another method would have been to split the string into words with an array
 	> and then call it back by the index...
-	```sh
-	kazzywiz@ubuntu:~/alx-higher_level_programming/0x00$ cat 8-concat_edges.py 
-	#!/usr/bin/python3
-	str = "Python is an interpreted, interactive, object-oriented programming\
- 		language that combines remarkable power with very clear syntax"
-	arr = str.split(" ")
-	str = arr[5] + " " + arr[6] + " " + arr[12] + " " + arr[0]
-	print(str)
-	```
+
+ 
 9. [Easter Egg](9-easter_egg.py) : Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 	- Your script should be maximum 98 characters long (please check with `wc -m 9-easter_egg.py`)
 	- 😉Google is your friend
