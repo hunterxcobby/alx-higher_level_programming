@@ -19,7 +19,7 @@ int check_cycle(listint_t *list)
 		if (hare->next != NULL && hare->next->next != NULL)
 		{
 			hare = hare->next->next;
-			tortoise = slow->next;
+			tortoise = tortoise->next;
 
 			/* Circle is found if nodes match*/
 			if (hare == tortoise)
