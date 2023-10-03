@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-i#!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
 
