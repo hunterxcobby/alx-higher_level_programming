@@ -1,5 +1,5 @@
 # 0x02. Python - import & modules
-![img](./main/Import%20&%20Modules.jpg)
+![img](https://github.com/AyomideKayode/alx-higher_level_programming/raw/main/0x02-python-import_modules/main/Import%20&%20Modules.jpg)
 > Each file in this repository holds code that illustrates an essential concept of programming,
 > specific to the Python programming language: importing modules and using definitions, not executing 
 > prints when imported, ...
