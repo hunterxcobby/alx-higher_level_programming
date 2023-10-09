@@ -1,5 +1,5 @@
 # 0x03. Python - Data Structures: Lists, Tuples 
-<img src="./main/Lists%20vs%20tuples.png" alt="Lists vs Tuples" style="width: 100%;">
+<img src="https://github.com/AyomideKayode/alx-higher_level_programming/blob/main/0x03-python-data_structures/main/Lists%20vs%20tuples.png?raw=true" alt="Lists vs Tuples" style="width: 100%;">
 
 > Each file in this repository holds code that illustrates an essential concept of programming,
 > specific to the Python programming language:
