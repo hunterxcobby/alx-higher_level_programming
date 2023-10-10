@@ -1,12 +1,16 @@
 #!/usr/bin/python3
 
 def print_matrix_integer(matrix=[[]]):
-    #  ensure the function doesn't raise any errors. So if it is empty
-    if not matrix:
-        return
-    # iterate through each row and column of the matrix.
+    num_row = len(matrix)
+
     for row in matrix:
-        for num in row:
-            # print each integer using str.format() to format the output
-            print("{:d}".format(num), end=" ")
+        num_elements = len(row)
+        col = 0  # This will keep track of the column index
+
+        for x in row:
+            if col < num_elements - 1:
+                print("{:d}".format(x), end=" ")
+            else:
+                print("{:d}".format(x), end="")
+            col += 1  # increment column index
         print()
