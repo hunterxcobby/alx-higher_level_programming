@@ -1,4 +1,4 @@
-#include <main.h>
+#include <Python.h>
 /**
  * print_python_list_info - Print information about a Python list.
  * @p: A pointer to a PyObject representing a Python list.
