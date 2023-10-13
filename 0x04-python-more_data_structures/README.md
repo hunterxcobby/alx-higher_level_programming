@@ -1,5 +1,5 @@
 # Project: 0x04. Python - More Data Structures: Set, Dictionary
-<img src="./main/python4.gif" alt="Lists vs Tuples" style="width: 100%;">
+<img src="https://github.com/AyomideKayode/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/main/python4.gif?raw=true">
 
 > Each file in this repository holds code that illustrates an essential concept of programming,
 > specific to the Python programming language: how to create and manipulate sets and dictionaries.
