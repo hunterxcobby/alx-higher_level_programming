@@ -1,6 +1,6 @@
 # Project: 0x05. Python - Exceptions
 
-<img src="./main/Python Exceptions.gif" alt="Python-Exceptions" width="100%">
+<img src="./main/Exceptions.gif" alt="Python-Exceptions" width="100%">
 
 ## Resources
 
