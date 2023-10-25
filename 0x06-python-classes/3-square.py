@@ -3,6 +3,8 @@
 """
 Create class Square that defines a square by
 Private instance attribute: size
+And a Public instance method: def area(self):
+that returns the current square area
 """
 
 
@@ -20,3 +22,10 @@ class Square:
             raise ValueError("size must be >= 0")
 
         self.__size = size
+
+    def area(self):
+        """
+        Calculates area of square
+        Returns: area
+        """
+        return (self.__size ** 2)
