@@ -15,7 +15,6 @@ class Rectangle:
     Args:
         width (int)
         height (int)
-    Dazzit, Dazzall.
     """
     def __init__(self, width=0, height=0):
         # initialize private attributes
