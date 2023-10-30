@@ -20,7 +20,6 @@ class Rectangle:
     Args:
         width (int)
         height (int)
-    Dazzit, Dazzall.
     """
 
     number_of_instances = 0
