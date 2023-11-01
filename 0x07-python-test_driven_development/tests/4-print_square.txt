@@ -1,0 +1,79 @@
+# Setup: Import the module and function
+>>> mod = __import__("4-print_square")
+>>> print_square = mod.print_square
+
+# Function Documentation
+>>> len(mod.__doc__) > 1
+True
+
+# Function Documentation
+>>> len(print_square.__doc__) > 1
+True
+
+# Test Cases
+
+# Valid input: size is a positive integer
+>>> size = 5
+>>> print_square(size)
+#####
+#####
+#####
+#####
+#####
+
+# Valid input: semi-large number?🤔
+>>> size = 25
+>>> print_square(size)
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+#########################
+
+# Valid input: size is zero (edge case)
+>>> size = 0
+>>> print_square(size)
+
+ 
+# Invalid input: size is not an integer (invalid)
+>>> size = "not_an_integer"
+>>> print_square(size)
+Traceback (most recent call last):
+    ...
+TypeError: size must be an integer
+
+# Invalid input: size is a negative integer (invalid)
+>>> size = -5
+>>> print_square(size)
+Traceback (most recent call last):
+    ...
+ValueError: size must be >= 0
+
+# Invalid input: size is a negative float (invalid)
+>>> size = -5.5
+>>> print_square(size)
+Traceback (most recent call last):
+    ...
+TypeError: size must be an integer
+
+# run test case file with `python3 -m doctest -v ./tests/4-print_square.txt`
