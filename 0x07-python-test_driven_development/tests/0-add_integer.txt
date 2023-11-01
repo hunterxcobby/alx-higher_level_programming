@@ -1,0 +1,85 @@
+# Setup: Import the module and function
+>>> mod = __import__("0-add_integer")
+>>> add_integer = mod.add_integer
+
+# Function Documentation
+>>> len(mod.__doc__) > 1
+True
+
+# Function Documentation
+>>> len(add_integer.__doc__) > 1
+True
+
+# Test Cases
+
+# Adding two positive integers:
+>>> add_integer(5, 7)
+12
+
+# Adding two float numbers: (Failed, expected 22 and 5 respectively)
+>>> add_integer(15.8, 7.2)
+23
+>>> add_integer(2.5, 3.5)
+6
+
+# Adding an integer and a float:
+>>> add_integer(10, 5.6)
+15
+
+# Adding a negative and positive number
+>>> add_integer(-2, 3)
+1
+>>> add_integer(3, -2)
+1
+
+# Adding two positive floats
+>>> add_integer(96.2, 2.9)
+98
+
+# Adding one float and one negative float
+>>> add_integer(100.1, -2.9)
+98
+>>> add_integer(-2.9, 100.1)
+98
+
+# Adding two negative floats
+>>> add_integer(-2.9, -96.2)
+-98
+
+# One positive float, one positive integer
+>>> add_integer(10.9, 2)
+12
+
+# Default b values:
+>>> add_integer(10)
+108
+>>> add_integer(7.2)
+105
+>>> add_integer(0, 0)
+0
+
+# Test cases to check for TypeErrors
+>>> add_integer(5, "7")
+Traceback (most recent call last):
+    ...
+TypeError: b must be an integer
+
+# Adding list and integer
+>>> add_integer([1, 2], 7)
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer
+
+>>> add_integer(5, [1, 2])
+Traceback (most recent call last):
+    ...
+TypeError: b must be an integer
+
+# Test special float NaN in Python (not a number):
+>>> print(add_integer(float("NaN")))
+Traceback (most recent call last):
+    ...
+ValueError: cannot convert float NaN to integer
+
+
+# run test case file with `python3 -m doctest -v ./tests/0-add_integer.txt`
