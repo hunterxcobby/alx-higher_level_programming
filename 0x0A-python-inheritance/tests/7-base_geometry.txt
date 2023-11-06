@@ -1,0 +1,56 @@
+# Setup: Import the module and class
+>>> mod = __import__("7-base_geometry")
+>>> BaseGeometry = mod.BaseGeometry
+
+# Class Documentation
+>>> len(mod.__doc__) > 1
+True
+
+# Class Documentation
+>>> len(BaseGeometry.__doc__) > 1
+True
+
+# Test Cases
+
+# Valid input: Create BaseGeometry instance and call area method (raises Exception)
+>>> geom = BaseGeometry()
+>>> geom.area()
+Traceback (most recent call last):
+    ...
+Exception: area() is not implemented
+
+# Valid input: integer_validator with a valid name and value
+>>> geom.integer_validator("side_length", 5)  # No exception is raised
+
+# Invalid input: integer_validator with a non-integer value (invalid)
+>>> geom.integer_validator("side_length", "not_an_integer")
+Traceback (most recent call last):
+    ...
+TypeError: side_length must be an integer
+
+# Invalid input: integer_validator with a non-positive integer value (invalid)
+>>> geom.integer_validator("side_length", 0)
+Traceback (most recent call last):
+    ...
+ValueError: side_length must be greater than 0
+
+# Valid input: integer_validator with a different name and valid value (no exception)
+>>> geom.integer_validator("width", 10)
+
+# Valid input: integer_validator with a different name and valid value (no exception)
+>>> geom.integer_validator("height", 20)
+
+# Invalid input: integer_validator with a different name and non-integer value (invalid)
+>>> geom.integer_validator("length", "not_an_integer")
+Traceback (most recent call last):
+    ...
+TypeError: length must be an integer
+
+# Invalid input: integer_validator with a different name and non-positive integer value (invalid)
+>>> geom.integer_validator("depth", 0)
+Traceback (most recent call last):
+    ...
+ValueError: depth must be greater than 0
+
+
+# run doctest file with `python3 -m doctest ./tests/7-base_geometry`
