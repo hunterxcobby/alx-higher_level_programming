@@ -1,0 +1,68 @@
+# Setup: Import the module and class
+>>> mod = __import__("1-my_list")
+>>> MyList = mod.MyList
+
+# Class Documentation
+>>> len(mod.__doc__) > 1
+True
+
+# Class Documentation
+>>> len(MyList.__doc__) > 1
+True
+
+# Test Cases
+
+# Valid input: create MyList instance and add elements
+>>> my_list = MyList()
+>>> my_list.append(3)
+>>> my_list.append(1)
+>>> my_list.append(2)
+>>> my_list
+[3, 1, 2]
+
+# Valid input: print sorted elements in ascending order
+>>> my_list.print_sorted()
+[1, 2, 3]
+
+# Valid input: empty list (sorted is still an empty list)
+>>> empty_list = MyList()
+>>> empty_list.print_sorted()
+[]
+
+# Valid input: list with negative numbers
+>>> neg_list = MyList()
+>>> neg_list.append(-5)
+>>> neg_list.append(-2)
+>>> neg_list.append(-10)
+>>> neg_list
+[-5, -2, -10]
+
+# Valid input: print sorted elements with negative numbers in ascending order
+>>> neg_list.print_sorted()
+[-10, -5, -2]
+
+# Valid input: list with floats
+>>> float_list = MyList()
+>>> float_list.append(3.5)
+>>> float_list.append(1.2)
+>>> float_list.append(2.8)
+>>> float_list
+[3.5, 1.2, 2.8]
+
+# Valid input: print sorted elements with floats in ascending order
+>>> float_list.print_sorted()
+[1.2, 2.8, 3.5]
+
+# Valid input: list with mixed types (sorted will raise a TypeError)
+>>> mixed_list = MyList()
+>>> mixed_list.append(3)
+>>> mixed_list.append("hello")
+>>> mixed_list.append(2.5)
+>>> mixed_list
+[3, 'hello', 2.5]
+
+# Invalid input: attempt to sort a list with mixed types (invalid)
+>>> mixed_list.print_sorted()
+Traceback (most recent call last):
+    ...
+TypeError: '<' not supported between instances of 'str' and 'int'
