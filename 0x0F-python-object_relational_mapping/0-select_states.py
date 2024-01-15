@@ -22,7 +22,7 @@ if __name__ == '__main__':
         db=argv[3]
     )
 
-    # createing a cursor object to execute SQL queries
+    # creating a cursor object to execute SQL queries
     cursor = db.cursor()
 
     # executing the cursor to retrieve states sorted by id
