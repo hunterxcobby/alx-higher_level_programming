@@ -12,8 +12,7 @@ Code should not be executed when imported.
 import MySQLdb
 from sys import argv
 
-
-def connect(self):
+if __name__ == '__main__':
     # establishing a secure connection to the MySQL server
     db = MySQLdb.connect(
         host='localhost',
@@ -39,7 +38,3 @@ def connect(self):
     # closing the cursor and database connection
     cursor.close()
     db.close()
-
-
-if __name__ == '__main__':
-    connect()
