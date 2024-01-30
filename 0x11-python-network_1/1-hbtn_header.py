@@ -7,8 +7,9 @@ Usage: ./1-hbtn_header.py <URL>
 import urllib.request
 import sys
 
-url = sys.argv[1]
+if __name__ == "__main__":
+    url = sys.argv[1]
 
-with urllib.request.urlopen(url) as response:
-    header = response.info()
-    print(header['X-Request-Id'])
+    with urllib.request.urlopen(url) as response:
+        header = response.info()
+        print(header['X-Request-Id'])
